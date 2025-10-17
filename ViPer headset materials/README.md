@@ -15,4 +15,6 @@ Instructions for putting together the ViPer Headset:
 13) Screw the motor onto the top of the ViPer frame using the M4 screws and secure with hex nuts.
 14) Attach the motor_mirror_attachment (now attached to the large mirror) to the motor and make sure the M3 screw is dropped directly into the intended hole in the bottom_frame.
 15) Secure the Arduino UNO to the top of the headset with adhesives of your choice.
-16) Replace the insert inside the headset that rests on the face back inside of the headset.
+17) Replace the insert inside the headset that rests on the face back inside of the headset.
+
+Optional: If the headset feels unstable or unsecure, print the screw_tube using PLA. Align the tube with the small holes on the top and bottom of the frame next to the servo motor. Take two M2.5 screws and washers and tighten them down to either side of the tube to help hold the headset in place.
