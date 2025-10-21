@@ -5,10 +5,6 @@ Materials, data, and code needed to reproduce "Estimating and interpreting how h
 
 CAD files for the headset and a BoM are included in this folder.
 
-<ins>Code</ins>
+<ins>Step-to-step data and code</ins>
 
-Code to visualize, analyze, and interpret gait metrics is included in this folder.
-
-<ins>Step-to-step data</ins>
-
-Gait metrics analyzed for each step of each condition are included in this folder. Respirometry data can also be found in this folder.
+Gait metrics analyzed for each step of each condition are included in this folder. Code to visualize, analyze, and interpret gait metrics is included in this folder.
