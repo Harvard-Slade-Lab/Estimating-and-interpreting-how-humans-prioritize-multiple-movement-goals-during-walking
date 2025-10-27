@@ -17,3 +17,5 @@ Brief summary of the main scripts and functions used to analyze the motion captu
 - Dist_gaze: provides a qualitative, purely descriptive estimate of how far ahead participants were looking, based on their height in combination with the head and trunk angles.
 
 - Plotting_gait_metrics: creates box plots and runs statistics on gait metrics data (represented in Fig. 2a-d).
+
+- pairplots: creates different seaborn pairplots and kernel density estimates to visualize gait metrics, as seen in Supplementary Fig. 5 and Fig. 2f-g.
