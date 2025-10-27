@@ -15,3 +15,5 @@ Brief summary of the main scripts and functions used to analyze the motion captu
 - Head_back_angles: calculates head and trunk angles using motion capture markers placed on the pelvis, the neck (C7 vertebra), and the headset.
 
 - Dist_gaze: provides a qualitative, purely descriptive estimate of how far ahead participants were looking, based on their height in combination with the head and trunk angles.
+
+- Plotting_gait_metrics: creates box plots and runs statistics on gait metrics data (represented in Fig. 2a-d).
