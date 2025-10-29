@@ -19,3 +19,5 @@ Brief summary of the main scripts and functions used to analyze the motion captu
 - Plotting_gait_metrics: creates box plots and runs statistics on gait metrics data (represented in Fig. 2a-d).
 
 - pairplots: creates different seaborn pairplots and kernel density estimates to visualize gait metrics, as seen in Supplementary Fig. 5 and Fig. 2f-g.
+
+- model_ranking_code: ridge regression models for wearable subset of data
