@@ -21,3 +21,6 @@ Brief summary of the main scripts and functions used to analyze the motion captu
 - pairplots: creates different seaborn pairplots and kernel density estimates to visualize gait metrics, as seen in Supplementary Fig. 5 and Fig. 2f-g.
 
 - model_ranking_code: ridge regression models for wearable subset of data
+
+- The required python package versions include matplotlib==3.10.6, numpy==1.26.4, pandas==2.3.2, seaborn==0.12.2, scipy==1.16.2, scikit-learn==1.3.1, and statsmodels==0.14.0
+
