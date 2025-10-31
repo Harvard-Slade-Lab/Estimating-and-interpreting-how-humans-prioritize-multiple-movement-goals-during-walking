@@ -19,4 +19,4 @@ Instructions for putting together the ViPer Headset:
 
 Optional: If the headset feels unstable or unsecure, print the screw_tube using PLA. Align the tube with the small holes on the top and bottom of the frame next to the servo motor. Take two M2.5 screws and washers and tighten them down to either side of the tube to help hold the headset in place.
 
-ViPer_control.ino is the script run through thr Arduino IDE to control the servo mounted to the ViPer headset.
+ViPer_control.ino is the script used to control the servo mounted to the ViPer headset, and it can be run through Arduino IDE.
