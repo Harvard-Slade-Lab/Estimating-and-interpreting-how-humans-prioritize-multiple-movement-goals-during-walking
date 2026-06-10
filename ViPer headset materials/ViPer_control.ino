@@ -50,22 +50,22 @@ void loop() {
 
   unsigned long currentMillis = millis();
   float t = (currentMillis - startMillis) / 1000.0;  // convert milliseconds to seconds
-  float pos = 105; // default position
+  float pos = 120; // default position
 
   // Select expression based on the number of button presses
   if (buttonPushCounter == 1) {
     // Low perturbation magnitude
-    pos = 100 + 12.5*(0.5*sin(M_PI * 2 * 0.25 * t) + 0.25 * sin(M_PI * 2 * 0.125 * t) + 0.25 * sin(M_PI * 2 * 0.442 * t));
+    pos = 115 + 12.5*(0.5*sin(M_PI * 2 * 0.25 * t) + 0.25 * sin(M_PI * 2 * 0.125 * t) + 0.25 * sin(M_PI * 2 * 0.442 * t));
   } else if (buttonPushCounter == 2) {
     // High perturbation magnitude
-    pos = 100 + 25*(0.5*sin(M_PI * 2 * 0.25 * t) + 0.25 * sin(M_PI * 2 * 0.125 * t) + 0.25 * sin(M_PI * 2 * 0.442 * t));
+    pos = 115 + 25*(0.5*sin(M_PI * 2 * 0.25 * t) + 0.25 * sin(M_PI * 2 * 0.125 * t) + 0.25 * sin(M_PI * 2 * 0.442 * t));
   } else if (buttonPushCounter == 3) {
     // Zero perturbation magnitude
-    pos = 105; // Neutral
+    pos = 120; // Neutral
   }
 //135
   // Ensure the position is within the valid range 
-  pos = constrain(pos, 62, 118);
+  pos = constrain(pos, 77, 133);
 
   // Only update the servo if the position has changed
   if (pos != lastPos) {
